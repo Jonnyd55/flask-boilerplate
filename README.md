@@ -1,13 +1,14 @@
 # Boilerplate for a Flask App
 =======
 
+---
 1. Make a virtualenv
 
-    mkvirtualenv -p [python version] [virtualenv name]
+	mkvirtualenv -p [python version] [virtualenv name]
 
 2. Pull down repo
 
-    git pull https://github.com/Jonnyd55/flask-boilerplate.git
+	git pull https://github.com/Jonnyd55/flask-boilerplate.git
 
 3. Install reqs (This includes SQL connectors for both MySQL and PostGreSQL)
 
