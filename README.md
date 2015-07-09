@@ -1,13 +1,15 @@
 # Boilerplate for a Flask App
 
 ---
-Make a virtualenv
+Make a virtualenv, create project foler
 
 	mkvirtualenv -p [python version] [virtualenv name]
+	mkdir flask-project
+	cd flask-project
 
 Pull down repo
 
-	git pull https://github.com/Jonnyd55/flask-boilerplate.git
+	git clone https://github.com/Jonnyd55/flask-boilerplate.git
 
 Install reqs (This includes SQL connectors for both MySQL and PostGreSQL)
 
@@ -20,5 +22,9 @@ Edit models.py to create tables
 Run create_db.py to build tables in database
 
 Run migrate_db.py to setup migration tables and migration histories
+
+Turn on server
+
+	python run.py
 
 Visit localhost:5000 
